@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="10" y="10" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:Screen" href="Launch.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Label" x="509" y="682" text="YCafe">
+          <font size="43px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Icon" x="465" y="696" icon="apple (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Panel" x="440" y="663" width="321" height="97"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Icon" x="576" y="479" icon="twitter (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Icon" x="576" y="385" icon="facebook (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Placeholder" x="496" y="450" width="185"/>
+      </widgetChanges>
+      <widgets ref="16" x="496" y="351" width="185">
+        <widgetChanges xsi:type="o:Insert" newIndex="6">
+          <object xsi:type="model:Placeholder" width="185"/>
+        </widgetChanges>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.5"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.4"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.3"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.2"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.1"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

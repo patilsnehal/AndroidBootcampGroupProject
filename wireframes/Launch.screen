@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="394" y="113" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android44/Devices.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="417" y="204" measuredWidth="361" measuredHeight="573">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android44/Navigation.screen#Action%20Bar%20Drawer"/>
+    <overrides>
+      <widgets ref="36" x="1"/>
+      <widgets ref="37" x="0">
+        <attributes key="annotation" value="true"/>
+      </widgets>
+      <widgets ref="38" x="321"/>
+      <widgets ref="37">
+        <widgetChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Placeholder" y="39" width="360" height="521"/>
+        </widgetChanges>
+      </widgets>
+      <widgets ref="45" x="1"/>
+      <widgets ref="41" x="16">
+        <attributes key="icon" value="apple (xlarge)"/>
+      </widgets>
+      <widgets ref="42" x="66" text="YCafe"/>
+      <widgets ref="43" x="275">
+        <attributes key="icon" value="user (medium)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
