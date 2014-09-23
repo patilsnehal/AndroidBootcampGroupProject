@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="13" x="200" y="12" measuredWidth="406" measuredHeight="795">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android44/Devices.screen#Phone"/>
+    <overrides>
+      <widgets ref="1" height="795"/>
+      <widgets ref="2" height="641"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="14" x="222" y="128" width="361" height="209" measuredWidth="361" measuredHeight="209"/>
+  <widgets xsi:type="model:Label" id="15" x="249" y="176" width="202" text="Cafe Name - URL's" measuredWidth="202" measuredHeight="31">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="420" y="248" text="Today's Date" measuredWidth="100" measuredHeight="25">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="222" y="144" width="156" text="This is background image" measuredWidth="156" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="18" x="222" y="336" width="361" height="137" text="Breakfast&#xA;Image_Item1 - Description - Icon Legend&#xA;Image_Item2 - Description - Icon Legend" measuredWidth="361" measuredHeight="137" selection="0">
+    <font/>
+    <items x="0" y="0" width="361" height="44" text="Breakfast"/>
+    <items x="0" y="44" width="361" height="43" text="Image_Item1 - Description - Icon Legend"/>
+    <items x="0" y="87" width="361" height="50" text="Image_Item2 - Description - Icon Legend"/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="19" x="222" y="472" width="361" height="201" text="Lunch&#xA;Image_Item1 - Description - Icon Legend&#xA;Image_Item2 - Description - Icon Legend&#xA;Image_Item3 - Description - Icon Legend&#xA;Image_Item4 - Description - Icon Legend" measuredWidth="361" measuredHeight="201" selection="0">
+    <font/>
+    <items x="0" y="0" width="361" height="40" text="Lunch"/>
+    <items x="0" y="40" width="361" height="39" text="Image_Item1 - Description - Icon Legend"/>
+    <items x="0" y="79" width="361" height="39" text="Image_Item2 - Description - Icon Legend"/>
+    <items x="0" y="118" width="361" height="39" text="Image_Item3 - Description - Icon Legend"/>
+    <items x="0" y="157" width="361" height="44" text="Image_Item4 - Description - Icon Legend"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="420" y="288" text="Open / Closed" measuredWidth="111" measuredHeight="25" foreground="#ff9900">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="441" y="269" text="(Tuesday)" measuredWidth="57" measuredHeight="20">
+    <font size="10px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="225" y="105" width="185" text="Y!Cafe" measuredWidth="185" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="519" y="103" width="67" text="sub-menu" measuredWidth="67" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="24" x="585" y="103" text="Refresh&#xA;Settings&#xA;About" measuredWidth="58" measuredHeight="67">
+    <font/>
+    <items x="0" y="2" width="58" height="21" text="Refresh"/>
+    <items x="0" y="23" width="58" height="21" text="Settings"/>
+    <items x="0" y="44" width="58" height="21" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="464" y="103" text="share" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

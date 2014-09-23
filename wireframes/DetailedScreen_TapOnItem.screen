@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="200" y="12" measuredWidth="406" measuredHeight="795">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android44/Devices.screen#Phone"/>
+    <overrides>
+      <widgets ref="1" height="795"/>
+      <widgets ref="2" height="641"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="24" x="223" y="105" width="360" height="79" measuredWidth="360" measuredHeight="79"/>
+  <widgets xsi:type="model:Label" id="25" x="258" y="135" width="202" text="Cafe Name" measuredWidth="202" measuredHeight="31">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="223" y="183" width="360" text="Today's Date" measuredWidth="360" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="233" y="105" width="156" text="This is background image" measuredWidth="156" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="28" x="223" y="207" width="360" height="153" text="Lunch                 (Served from &lt;time>)&#xA;Image_Item5 - Description - Icon Legend&#xA;Image_Item6 - Description - Icon Legend&#xA;Image_Item7 - Description - Icon Legend&#xA;Image_Item8 - Description - Icon Legend" measuredWidth="360" measuredHeight="153" selection="0">
+    <font/>
+    <items x="0" y="0" width="360" height="30" text="Lunch                 (Served from &lt;time>)"/>
+    <items x="0" y="30" width="360" height="29" text="Image_Item5 - Description - Icon Legend"/>
+    <items x="0" y="59" width="360" height="29" text="Image_Item6 - Description - Icon Legend"/>
+    <items x="0" y="88" width="360" height="29" text="Image_Item7 - Description - Icon Legend"/>
+    <items x="0" y="117" width="360" height="36" text="Image_Item8 - Description - Icon Legend"/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="29" x="223" y="359" width="360" height="64" text="Dinner                 (Served from &lt;time>)&#xA;Image_Item1 - Description - Icon Legend" measuredWidth="360" measuredHeight="64" selection="0">
+    <font/>
+    <items x="0" y="0" width="360" height="30" text="Dinner                 (Served from &lt;time>)"/>
+    <items x="0" y="30" width="360" height="34" text="Image_Item1 - Description - Icon Legend"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="30" x="223" y="422" width="146" height="130" measuredWidth="146" measuredHeight="130"/>
+  <widgets xsi:type="model:TextArea" id="31" x="368" y="422" width="215" height="130" text="Item2&#xA; - Item Description&#xA; - Item Full Description&#xA; - Core Icon and Description&#xA; - Cafe Station&#xA; - Availability for other days (M|T|W|TH|F)&#xA; &#xA; " measuredWidth="215" measuredHeight="130">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="32" x="512" y="520" text="Share" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="33" x="223" y="551" width="360" height="122" text="Image_Item3 - Description - Icon Legend&#xA;Image_Item4 - Description - Icon Legend&#xA;Image_Item5 - Description - Icon Legend&#xA;Image_Item6 - Description - Icon Legend&#xA;Image_Item7 - Description - Icon Legend&#xA;" measuredWidth="360" measuredHeight="122">
+    <font/>
+    <items x="0" y="2" width="360" height="21" text="Image_Item3 - Description - Icon Legend"/>
+    <items x="0" y="23" width="360" height="21" text="Image_Item4 - Description - Icon Legend"/>
+    <items x="0" y="44" width="360" height="21" text="Image_Item5 - Description - Icon Legend"/>
+    <items x="0" y="65" width="360" height="21" text="Image_Item6 - Description - Icon Legend"/>
+    <items x="0" y="86" width="360" height="21" text="Image_Item7 - Description - Icon Legend"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
