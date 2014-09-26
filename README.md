@@ -18,17 +18,17 @@ The User stories we are aiming to complete are:
  - [ ]  <i>(Optional)</i> User can see whether cafe if open or closed					
  - [ ]  <i>(Optional)</i> User can post feedback on the recipes					
  - [ ]  <i>(Optional)</i> User should be able to see contact details for cafe					
- - [ ]  <i>(Optional)</i> If user click on phone no or on email id of the contact person, he should be able to call/send email.					
+ - [ ]  <i>(Optional)</i> If user click on phone no or on email id of the contact person, he should be able to call/send email.	
  - [ ]  <i>(Optional)</i> User can see type of menu item, for example Vegetarian, Vegan etc. Every menu type has image.	
  - [ ]  <i>(Optional)</i> User logs in the login page using bouncer credentials					
  - [ ]  <i>(Optional)</i> Send push notificaiton for menu 3 times a day.
  - [ ]  <i> (Stretch) </i>  User can see list of all receipes				
- - [ ] (Stretch)  User can get details of a particular recipe				
- - [ ] (Stretch)  User can share recipes on facebook.				
- - [ ] (Stretch)  User can subscribe menu in the email.				
- - [ ] (Stretch)  Customize time settings for push notification.				
- - [ ] (Stretch)  User can see menu icon legend				
- - [ ] (Stretch)  Send healthy tips through local push notification.
+ - [ ]  <i>(Stretch) </i>  User can get details of a particular recipe				
+ - [ ]  <i>(Stretch) </i>   User can share recipes on facebook.				
+ - [ ]  <i>(Stretch) </i>    User can subscribe menu in the email.				
+ - [ ]  <i>(Stretch) </i>   Customize time settings for push notification.				
+ - [ ]  <i>(Stretch) </i>   User can see menu icon legend				
+ - [ ]  <i>(Stretch) </i>   Send healthy tips through local push notification.
  
  ## References
   - [Project Guidelines](https://yahoo.jiveon.com/docs/DOC-3046)
