@@ -9,7 +9,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="3" x="33" y="266" measuredWidth="360" measuredHeight="167">
-    <screen xsi:type="model:WidgetGroup" href="../assets/Android44/Lists.screen#List%20Radio"/>
+    <screen xsi:type="model:WidgetGroup" href="assets/Android44/Lists.screen#List%20Radio"/>
     <overrides>
       <widgets ref="20" text="URL's cafe&#x9;&#xA;Bldg-A&#xA;Bldg-B&#xA;">
         <items ref="@items.0" text="URL's cafe&#x9;"/>

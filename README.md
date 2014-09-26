@@ -36,4 +36,6 @@ The User stories we are aiming to complete are:
   - [Yahoo Cafe Rest API](http://legacy.cafebonappetit.com/api/1/cafe/684/date/2014-01-27/format/json)
   - [User stories are listed in here](https://docs.google.com/a/yahoo-inc.com/spreadsheets/d/1o7L3EZ0gTAinz4YtD5j3mMmCx_6iU2A9p9A6t-osXTQ/edit#gid=0)
 
+## Workflow
+![This is the workflow](images/storyboard.gif)
   
